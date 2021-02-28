@@ -1,0 +1,28 @@
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  z-index: 100;
+}
+
+.listContainer {
+  display: flex;
+}
+
+.listItem {
+  padding: 0 1rem;
+}
+
+.logo {
+  font-size: 1.6rem;
+  color: #3498db;
+  text-align: center;
+  font-weight: 700;
+  width: 10rem;
+}

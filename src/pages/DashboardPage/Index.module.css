@@ -1,0 +1,9 @@
+.wrapper {
+    margin-left: 10rem;
+    margin-top: 3.5rem;
+    background-color: #f5f6f8;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    box-shadow: inset 0px 0px 40px 0px rgba(87, 86, 86, 0.1);
+    min-height: calc(100vh - 3.5rem);
+  }

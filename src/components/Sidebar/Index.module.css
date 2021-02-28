@@ -1,0 +1,53 @@
+.sidebarWrapper {
+    position: fixed;
+    top: 3.5rem;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 10rem;
+    z-index: 100;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    text-align: center;
+}
+
+.item:first-child {
+    border-top: 1px solid #e1e5eb;
+}
+
+.linkItem {
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+    text-transform: uppercase;
+    color: #3d5170;
+    padding: 1rem;
+    border-left:0.2rem white solid;
+    fill: #676767;
+}
+
+.linkItem:hover { 
+    border-left:0.2rem #3498db solid;
+    color: #3498db;
+    fill: #3498db;
+    background-color: #fafafa;
+}
+
+.selected{
+    border-left:0.2rem #3498db solid;
+    color: #3498db;
+    fill: #3498db;
+    background-color: #fafafa;
+}
+
+.itemIcon {
+    text-align: center;
+    display: block;
+}

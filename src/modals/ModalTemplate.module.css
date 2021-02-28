@@ -1,0 +1,40 @@
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 20rem;
+    height: 23rem;
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 20;
+    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+}
+
+.modal:focus {
+    outline: none;
+}
+/* #5f6368 */
+.overlayModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+.input {
+    padding: 0;
+    flex-shrink: 1;
+    background-color: transparent;
+    border: none;
+    display: block;
+    cursor: text;
+}
+
+.input:focus {
+    outline: none;
+}
+

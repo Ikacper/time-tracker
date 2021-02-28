@@ -1,0 +1,126 @@
+.wrapper {
+    max-width: 28rem;
+    width: 100%;
+    height: auto;
+    margin: 5rem auto;
+}
+
+.mainContent, .subContent {
+    margin: 1rem auto;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 1.2rem  1.6rem;
+    text-align: center;
+}
+
+.input {
+    font-size: 1rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    margin: 0.5rem auto;
+    display: block;
+    padding: 0.5rem 0.8rem;
+    width: 80%;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid #043d8c6b;
+}
+
+.submit {
+    border: none;
+    cursor: pointer;
+    margin: 1.2rem auto;
+    background-color: #0095f6;
+    color: white;
+    font-weight: 500;
+}
+
+.connective {
+    font-weight: 500;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.horizontalRuler {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
+.horizontalRuler::before, .horizontalRuler::after {
+    content:  "";
+    flex: 1;
+    border-bottom: 1px solid #8e8e8e;
+    opacity: 0.5;
+}
+
+.horizontalRuler::before {
+    margin-right: 1rem;
+}
+
+.horizontalRuler::after {
+    margin-left: 1rem;
+}
+
+.googleButton {
+    display: block;
+    height: 40px;
+    border-width: 0;
+    background: white;
+    color: #737373;
+    border-radius: 3px;
+    box-shadow: rgba(0,0,0,0.2) 1px 1px 5px 0;
+    padding: 0;
+    width: 80%;
+    margin: 1.2rem auto;
+}
+
+.googleButton:focus, .googleButton:hover {
+    background-color: #F9FAFC;
+}
+
+.googleButton:active {
+    background-color: #eee;
+    border: 2px solid #CDD2D4;
+} 
+
+.googleIcone {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 8px 0 8px 8px;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+}
+
+.googleText {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 12px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto',arial,sans-serif;
+    align-items: center;
+}
+
+.passwordLink {
+    color: #00376b;
+    font-size: 0.85rem;
+}
+
+.span{
+    color: #262626;
+    font-size: 0.9rem;
+}
+
+.registerLink {
+    color: #0095f6;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
